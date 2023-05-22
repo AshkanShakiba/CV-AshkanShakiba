@@ -1,0 +1,317 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+\definecolor{awesome}{HTML}{067A85}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Ashkan} \headerlastnamestyle{Shakiba} \\
+	\vspace{2mm}
+	\textcolor{awesome}{Software Developer{\enskip\cdotp\enskip}Computer Eng. Student} \\
+	\vspace{2mm}
+	{\faEnvelope\ AshkanShakiba11@gmail.com} | {\faMobile\ (+98) 9039103980} | {\faMapMarker\ Tehran, Iran} \\
+	{\href{https://linkedin.com/in/AshkanShakiba}{\faLinkedin\ AshkanShakiba}} | {\href{https://github.com/AshkanShakiba}{\faGithub\ AshkanShakiba}} | {\href{skype:live:.cid.ab6ac0e95ae8e6eb?chat}{\faSkype\ live:.cid.ab6ac0e95ae8e6eb}}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Technical Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		\vspace{0.25mm}Programming Languages:  & {\skill{ Python, Java, JavaScript, TypeScript, Kotlin, C}} \\
+		\vspace{0.25mm}Database Management:  & {\skill{ SQL, MySQL, PostgreSQL, elasticsearch, redis}} \\
+		\vspace{0.25mm}Backend Development:  & {\skill{ Django, Django REST framework, CherryPy}} \\
+		\vspace{0.25mm}Frontend Development:  & {\skill{ HTML, CSS, Angular, Flutter, Scss}} \\
+		\vspace{0.25mm}DevOps and Testing:  & {\skill{ Git, Docker, Selenium}} \\
+		\vspace{0.25mm}Operating Systems:  & {\skill{ Linux (Ubuntu), Windows}} \\
+		\vspace{0.25mm}Software Engineering:  & {\skill{ Agile and Scrum, Design Patterns, Testing}} \\
+		\vspace{0.25mm}Programming Expertise:  & {\skill{ Data Structures and Algorithms, Object-oriented Programming, Microservices}} \\
+		\vspace{0.25mm}Also familiar with:  & {\skill{ Golang, Blockchain and Cryptocurrencies, Android Development, React, kibana}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+\vspace{-7mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Work Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{\textbf{Software Developer}}
+	{Tabdeal Cryptocurrency Exchange}
+	{Tehran, Iran}
+	{Sep 2022 – Jan 2023}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Website: \href{https://tabdeal.org}{\textcolor{awesome}{https://tabdeal.org}}}
+		\vspace{1mm}
+		\item {Technologies: Python, Django, Django REST framework, MySQL, PostgreSQL, etc.}
+		\vspace{1mm}
+		\item {Develop services to manage and transfer cryptocurrencies, such as wallets and node handlers}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Backend Developer}}
+	{Gradient Data Processing (Technical Team of Mobin Sarmaye)}
+	{Tehran, Iran}
+	{Feb 2022 – Aug 2022}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item {Technologies: Python, CherryPy, elasticsearch, kibana, pandas, NumPy, matplotlib, PIL, Selenium, etc.}
+		\vspace{1mm}
+		\item {Develop services to explore and receive data, process it, and store it in an efficient way}
+		\vspace{1mm}
+		\item {Implement multiple backend services for a financial explorer and its club}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Frontend Trainee}}
+	{CodeStar Bootcamp (at Mohaymen ICT)}
+	{Tehran, Iran}
+	{Jul 2021 – Sep 2021}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item {Technologies: Angular, TypeScript, Scss}
+	\end{cvitems}}
+	\cventry
+	{\textbf{Software Developer}}
+	{Freelancer}
+	{Remote}
+	{Sep 2020 – Feb 2022}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item {Technologies: C, Java, JavaScript, Angular}
+		\vspace{1mm}
+		\item {Develop multiple projects such as \href{https://github.com/AshkanShakiba/Pexeso}{\textcolor{awesome}{Pexeso}}, \href{https://github.com/AshkanShakiba/Joojle}{\textcolor{awesome}{Simple Search Engine}}, etc.}
+	\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{\textbf{Bachelor\textquotesingle{}s degree in Computer Engineering}}
+	{Amirkabir University of Technology (Tehran Polytechnic)}
+	{Tehran, Iran}
+	{Sep 2020 – Current}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} GPA: 18.50 (out of 20)}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Important Grades (out of 20):}
+		\vspace{1mm}
+		\item {Fund. of Programming: 20}
+		\item {Advanced Programming: 20}
+		%\item {Discrete Mathematics: 18}
+		\item {Data Structures and Algorithms: 19.3}
+		\item {Logic Circuits: 19.2}
+		\item {Computer Architecture: 18.8}
+		\item {Principles of Artificial Intelligence: 18.75}
+		\item {Software Engineering: 20}
+		\item {Mobile Programming: 20}
+	\end{cvitems}}
+%	\cventry
+%	{\textbf{High School Diploma in Mathematics and Physics}}
+%	{National Organization for Development of Exceptional Talents (Sampad)}
+%	{Bojnord, Iran}
+%	{Sep 2017 – Sep 2020}
+%	{\begin{cvitems}
+%		\vspace{1mm}
+%		\item[] {\hspace{-9mm} GPA: 19.35 (out of 20)}
+%	\end{cvitems}}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{\textbf{B2B phone charge system}}
+	{Bell}
+	{Django, Django REST f. , PostgreSQL}
+	{\href{https://github.com/AshkanShakiba/Bell}{\faGithub\ AshkanShakiba/Bell}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Challenges:}
+		\vspace{1mm}
+		\item {Implement ACID transactions}
+		\vspace{1mm}
+		\item {Develop REST API and document it}
+		\vspace{1mm}
+		\item {Using Scout APM to monitor services}
+	\end{cvitems}}
+	\vspace{0mm}
+	\cventry
+	{\textbf{Journalism Application}}
+	{Kyusk}
+	{Django, PostgreSQL}
+	{\href{https://github.com/AshkanShakiba/Kyusk}{\faGithub\ AshkanShakiba/Kyusk}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Challenges:}
+		\vspace{1mm}
+		\item {Database Management}
+		\vspace{1mm}
+		\item {Develop views and design UI}
+	\end{cvitems}}
+	\vspace{0mm}
+	\cventry
+	{\textbf{Blog API}}
+	{Paragraph}
+	{Django, Django REST f. , PostgreSQL}
+	{\href{https://github.com/AshkanShakiba/Paragraph}{\faGithub\ AshkanShakiba/Paragraph}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Challenges:}
+		\vspace{1mm}
+		\item {Database Management}
+		\vspace{1mm}
+		\item {Develop REST API and document it}
+	\end{cvitems}}
+	\vspace{0mm}
+	\cventry
+	{\textbf{Advanced Programming Final Project}}
+	{Clash Royale}
+	{Java, JavaFX, MySQL}
+	{\href{https://github.com/AshkanShakiba/Clash-Royale}{\faGithub\ AshkanShakiba/Clash-Royale}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Challenges:}
+		\vspace{1mm}
+		\item {Develop game using MVC architecture}
+		\vspace{1mm}
+		\item {Database Management}
+		\vspace{1mm}
+		\item {Graphic Design}
+	\end{cvitems}}
+	\vspace{0mm}
+	\cventry
+	{\textbf{Android E-book Reader Application}}
+	{Bookzy}
+	{Android, Kotlin}
+	{\href{https://github.com/maryam-kermanshahani2001/Bookzy}{\faGithub\ AshkanShakiba/Bookzy}}
+	{\begin{cvitems}
+		\vspace{1mm}
+		\item[] {\hspace{-9mm} Challenges:}
+		\vspace{1mm}
+		\item {Develop reader's functionalities and features}
+		\vspace{1mm}
+		\item {Using firebase cloud as object storage service}
+		\vspace{1mm}
+		\item {Graphic Design}
+	\end{cvitems}}
+	\vspace{-3mm}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Teaching Assistant Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2mm}
+\cvsection{Teaching Assistant Experience}
+\begin{cvhonors}
+	\cvhonor
+	{Software Engineering}
+	{Teaching Assistant under the supervision of Dr. Alirezaei}
+	{AUT, UT}
+	{Feb 2023}
+	\cvhonor
+	{Fundamentals of Programming}
+	{Teaching Assistant under the supervision of Mr. Alvani}
+	{AUT}
+	{Feb 2022}
+	\cvhonor
+	{Advanced Programming}
+	{Teaching Assistant under the supervision of Dr. Zeinali and Dr. Kalbasi}
+	{AUT}
+	{Feb 2022}
+	\cvhonor
+	{Advanced Programming}
+	{Workshop Documentation Author under the supervision of Mr. Hoseini}
+	{AUT}
+	{Jul 2021}
+	\cvhonor
+	{Fundamentals of Programming}
+	{Teaching Assistant under the supervision of Dr. Zeinali}
+	{AUT}
+	{Sep 2021}
+\end{cvhonors}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Volunteering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2mm}
+\cvsection{Volunteering}
+\begin{cventries}
+	\cventry
+	{\textbf{Official Member}}
+	{Students'​ Scientific Chapter (SSC)}
+	{Tehran, Iran}
+	{Aug 2021 – Mar 2023}
+	{Members of the Students' Scientific Chapter are annually chosen in an election and with the vote of Amirkabir Univ. of Tech. Computer Eng. Dept.'s students.
+	I am selected as an official member and head of the competition commission.
+	SSC has always held different events such as \href{http://linuxfest.aut.ac.ir/}{\textcolor{awesome}{LinuxFest (Linux and open source festival)}}, \href{https://icpc.aut.ac.ir/}{\textcolor{awesome}{Amirkabir
+	Collegiate Programming Contest}}, Amirkabir Artificial Intelligence Summer Summit, Data Mining Challenge, \href{https://gamecraft.ce.aut.ac.ir/}{\textcolor{awesome}{GameCraft}} and etc.
+	Also, SSC has presented talks, courses, and other programs to help students interact with the industry.}
+\end{cventries}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Languages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Languages}
+\begin{cvhonors}
+	\cvhonor
+	{Persian}
+	{Mother tongue}
+	{}
+	{Native}
+	\cvhonor
+	{English}
+	{Listening B2, Reading B2, Writing B2, Speaking B2}
+	{}
+	{Advanced}
+\end{cvhonors}
+\ 
+\end{document}
